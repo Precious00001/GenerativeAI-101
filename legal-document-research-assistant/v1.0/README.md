@@ -8,7 +8,7 @@ An agentic AI system that helps lawyers research case-relevant information.
 - summarize_case — retrieves case summaries from loaded PDFs, falls back to web search
 
 ## Stack
-- LLM: Llama 3.3 70B via Groq
+- LLM: llama-3.3-70b-versatile via Groq
 - Embeddings: HuggingFace sentence-transformers
 - Vector store: FAISS
 - Framework: LangChain + LangGraph ReAct agent
